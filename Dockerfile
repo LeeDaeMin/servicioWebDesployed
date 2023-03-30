@@ -1,4 +1,4 @@
-FROM amazoncorretto:8-alpine-jdk
+FROM openjdk:17-oracle
 
 COPY target/api-invoice-uts-0.0.2-SNAPSHOT.jar app.jar
 
