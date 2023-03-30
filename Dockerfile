@@ -1,4 +1,4 @@
-FROM openjdk:17-oracle
+FROM openjdk:17
 
 COPY target/api-invoice-uts-0.0.2-SNAPSHOT.jar app.jar
 
